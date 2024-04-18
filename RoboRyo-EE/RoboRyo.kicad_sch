@@ -5241,6 +5241,328 @@
 				)
 			)
 		)
+		(symbol "SamacSys_Parts:CSD13383F4"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CSD13383F4"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CSD13383F4"
+				(at 11.43 -98.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/csd13383f4"
+				(at 11.43 -198.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "12V, N ch NexFET MOSFET, single LGA 1.0 x 0.6mm, 44mOhm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.35"
+				(at 11.43 -398.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CSD13383F4"
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-CSD13383F4"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD13383F4?qs=beZBGHSk9c3rR5p9cfIBEg%3D%3D"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "CSD13383F4"
+				(at 11.43 -898.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/csd13383f4/texas-instruments?region=nac"
+				(at 11.43 -998.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CSD13383F4_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:DMG9926USD-13"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7125,6 +7447,12 @@
 		(uuid "4e90c10c-7051-4da1-a6e7-f12a8329844a")
 	)
 	(junction
+		(at 229.87 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "516b0184-b0da-4a65-b756-0c1fd6d018b8")
+	)
+	(junction
 		(at 229.87 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7165,6 +7493,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61b128b6-471e-4908-b3a8-494c87782756")
+	)
+	(junction
+		(at 229.87 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76e0a7f2-1c6c-4ccc-afc1-618323bbe672")
 	)
 	(junction
 		(at 212.09 229.87)
@@ -7372,6 +7706,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 133.35) (xy 204.47 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f893862-5b7a-4ae5-92ed-ca50c711007c")
+	)
+	(wire
+		(pts
 			(xy 41.91 171.45) (xy 41.91 190.5)
 		)
 		(stroke
@@ -7409,6 +7753,16 @@
 			(type default)
 		)
 		(uuid "14aec55f-b70c-4dbc-b2a5-f8242b1b8b7f")
+	)
+	(wire
+		(pts
+			(xy 25.4 86.36) (xy 33.02 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d85023-417e-4139-b474-d2c3be664a1d")
 	)
 	(wire
 		(pts
@@ -7459,6 +7813,16 @@
 			(type default)
 		)
 		(uuid "17023c03-31a0-479b-a7af-9cc6b26d19f8")
+	)
+	(wire
+		(pts
+			(xy 229.87 125.73) (xy 229.87 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b970ba-b248-4b10-8dbc-970fb3a48521")
 	)
 	(wire
 		(pts
@@ -7669,6 +8033,16 @@
 			(type default)
 		)
 		(uuid "3ce1bf80-6bab-4f65-8ce7-6c798f119a4b")
+	)
+	(wire
+		(pts
+			(xy 191.77 130.81) (xy 204.47 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da18af0-333b-4e6d-af96-9cf690928edd")
 	)
 	(wire
 		(pts
@@ -8302,6 +8676,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 128.27) (xy 204.47 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32f2dd5-e67b-4cdd-9c7a-764853e3c4c5")
+	)
+	(wire
+		(pts
 			(xy 185.42 24.13) (xy 204.47 24.13)
 		)
 		(stroke
@@ -8492,6 +8876,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 130.81) (xy 229.87 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d64a3402-e008-486f-a89e-05e327185a5e")
+	)
+	(wire
+		(pts
 			(xy 314.96 110.49) (xy 302.26 110.49)
 		)
 		(stroke
@@ -8519,6 +8913,16 @@
 			(type default)
 		)
 		(uuid "d8941aa0-0a62-4b81-90c4-c6c06f9f130d")
+	)
+	(wire
+		(pts
+			(xy 22.86 106.68) (xy 30.48 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c74e7d-68f0-4fc6-9d97-dbfae532597f")
 	)
 	(wire
 		(pts
@@ -8639,6 +9043,16 @@
 			(type default)
 		)
 		(uuid "ed2a163d-c1b3-4658-9aa4-996156044469")
+	)
+	(wire
+		(pts
+			(xy 191.77 125.73) (xy 204.47 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddf2929-6942-455b-b052-20409626b5a7")
 	)
 	(wire
 		(pts
@@ -9148,6 +9562,17 @@
 		)
 		(uuid "466dd573-a1c9-46a6-8b2b-23101d110bdd")
 	)
+	(label "RSL_EX"
+		(at 25.4 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47e56aa7-db45-4aba-b401-5e412257d749")
+	)
 	(label "GPIO-OUT7"
 		(at 99.06 269.24 0)
 		(fields_autoplaced yes)
@@ -9180,6 +9605,17 @@
 			(justify left bottom)
 		)
 		(uuid "5536abef-e6a9-4206-8e86-ae8e85c5759f")
+	)
+	(label "DO10"
+		(at 245.11 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c6f00b8-5f2e-4a84-95ba-52eb25ee69e5")
 	)
 	(label "UART_TX"
 		(at 45.72 241.3 0)
@@ -9257,6 +9693,17 @@
 			(justify left bottom)
 		)
 		(uuid "6cccd4ae-06b8-47c2-9653-04658e9d0fdd")
+	)
+	(label "RSL_EX"
+		(at 71.12 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6eddf7cc-830c-435f-938d-47a49a8109f7")
 	)
 	(label "mPWM3"
 		(at 99.06 198.12 0)
@@ -9599,6 +10046,17 @@
 		)
 		(uuid "c7250ca6-443b-4a68-a190-9017f818db83")
 	)
+	(label "DO9"
+		(at 245.11 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c80ba645-c350-4d3b-82e2-1dc05371fdee")
+	)
 	(label "GPIO-OUT6"
 		(at 99.06 266.7 0)
 		(fields_autoplaced yes)
@@ -9632,7 +10090,7 @@
 		)
 		(uuid "cdba64ba-f478-4ba7-b4a5-8f10bc575138")
 	)
-	(label "GPIO-OUT9"
+	(label "sRADIO_LED"
 		(at 99.06 233.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9687,6 +10145,17 @@
 		)
 		(uuid "d82ff4d3-f050-4e74-8614-6e1b59bc1bce")
 	)
+	(label "RSL_EX"
+		(at 58.42 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc05f51f-5a12-4ae2-8a07-52b12bc976d5")
+	)
 	(label "GPIO-OUT16"
 		(at 45.72 208.28 0)
 		(fields_autoplaced yes)
@@ -9719,6 +10188,17 @@
 			(justify left bottom)
 		)
 		(uuid "eb677f84-826d-4dcd-8d06-1dd84ff2b42d")
+	)
+	(label "RSL_OUT"
+		(at 22.86 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee7acd55-2398-4dff-b04f-fa641c91e268")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -11696,6 +12176,152 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:2601-1102")
+		(at 33.02 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a58016e-1fe9-4787-ace0-54389b88ce0f")
+		(property "Reference" "DO13"
+			(at 45.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2601-1102"
+			(at 45.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "26011102"
+			(at 54.61 181.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.wago.com/2601-1102"
+			(at 54.61 281.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 1.5 mm; Pin spacing 3.5 mm; 2-pole; Push-in CAGE CLAMP; 1,50 mm; gray"
+			(at 33.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.75"
+			(at 54.61 481.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 54.61 581.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2601-1102"
+			(at 54.61 681.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 54.61 781.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 54.61 881.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 54.61 981.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 54.61 1081.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7b02bc68-3ab1-4aa8-9677-a23a5fbc9fbe")
+		)
+		(pin "4"
+			(uuid "ec708e66-4de1-438b-ab17-8b71e41f9210")
+		)
+		(pin "1"
+			(uuid "1d12cf0d-468c-4eda-9a86-95f39a5173e0")
+		)
+		(pin "2"
+			(uuid "6e1187eb-695c-445d-8a97-82bbd348a6e4")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "DO13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 350.52 97.79 0)
 		(unit 1)
@@ -13571,6 +14197,146 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:SB220-E3_73")
+		(at 245.11 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38f829be-b676-487e-961d-2a80cd3d900c")
+		(property "Reference" "D20"
+			(at 237.49 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SB220-E3_73"
+			(at 237.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DIOAD1910W86L670D310"
+			(at 233.68 35.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88717/sb220.pdf"
+			(at 233.68 -64.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky Diodes & Rectifiers 20 Volt 2.0 Amp 60 Amp IFSM"
+			(at 245.11 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 233.68 -264.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 233.68 -364.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SB220-E3/73"
+			(at 233.68 -464.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "625-SB220-E3/73"
+			(at 233.68 -564.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SB220-E3-73?qs=u91jd7aysvPbXL6e9uzQKg%3D%3D"
+			(at 233.68 -664.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 233.68 -764.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 233.68 -864.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04874fdf-ce96-4a92-bf3c-5404e238bea4")
+		)
+		(pin "2"
+			(uuid "26c0ddb6-f15f-4e5a-a399-5650c4444709")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 128.27 72.39 0)
 		(unit 1)
@@ -13976,6 +14742,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 147.32 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ef25795-28cd-421f-8cee-6aaca7ce318f")
+		(property "Reference" "#PWR054"
+			(at 147.32 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35fb4f09-d9a9-4020-9667-2e85bee1798f")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:SB220-E3_73")
 		(at 245.11 41.91 180)
 		(unit 1)
@@ -14243,6 +15075,71 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12VA")
+		(at 191.77 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48ccdf63-1284-4143-8345-b67e03565600")
+		(property "Reference" "#PWR047"
+			(at 191.77 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12VA"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12VA\""
+			(at 191.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df8b8a63-7cad-4e4b-a3e9-e7440878bec6")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -15298,6 +16195,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 147.32 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56239a1c-b46f-487a-a034-e91cd4bbe13f")
+		(property "Reference" "#PWR065"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38ffe081-1841-4b06-8f75-3f9426ffbf8c")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:150060YS75000")
 		(at 259.08 204.47 0)
 		(unit 1)
@@ -15836,6 +16799,152 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:2601-1102")
+		(at 147.32 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a16823d-f15d-4fdb-b0de-7bbef6bac5e8")
+		(property "Reference" "DO11"
+			(at 160.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2601-1102"
+			(at 160.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "26011102"
+			(at 168.91 166.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.wago.com/2601-1102"
+			(at 168.91 266.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 1.5 mm; Pin spacing 3.5 mm; 2-pole; Push-in CAGE CLAMP; 1,50 mm; gray"
+			(at 147.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.75"
+			(at 168.91 466.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 168.91 566.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2601-1102"
+			(at 168.91 666.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 168.91 766.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 168.91 866.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 168.91 966.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 168.91 1066.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c0ff512c-1c0a-42bf-aa94-8adfebd15cfb")
+		)
+		(pin "4"
+			(uuid "94fe9fea-4cb4-49c2-b441-e4eac26327ad")
+		)
+		(pin "1"
+			(uuid "005a873d-665f-46cd-b0dc-8495ad9d0da1")
+		)
+		(pin "2"
+			(uuid "61304041-66c0-43f3-b471-5dfa9568865a")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "DO11")
 					(unit 1)
 				)
 			)
@@ -16565,6 +17674,356 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60a32fdd-0811-42aa-8f26-8c9702fbae07")
+		(property "Reference" "#PWR098"
+			(at 58.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b35bd50b-a88c-421e-9a12-b5d92ae5cde7")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:ERJ3GEYJ102V")
+		(at 30.48 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66477523-50a7-4deb-b889-6f120327cd16")
+		(property "Reference" "R2"
+			(at 39.37 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERJ3GEYJ102V"
+			(at 39.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJ3EKF1000V"
+			(at 44.45 202.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/13ba/0900766b813ba21b.pdf"
+			(at 44.45 302.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 0603 1Kohms 5% AEC-Q200"
+			(at 30.48 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 44.45 502.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 44.45 602.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ3GEYJ102V"
+			(at 44.45 702.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-3GEYJ102V"
+			(at 44.45 802.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "http://www.mouser.com/Search/ProductDetail.aspx?qs=66DK8nO8gJBFiTsClorqsA%3d%3d"
+			(at 44.45 902.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 44.45 1002.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 44.45 1102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "470c2494-4473-47b8-bb4c-9dba1edd60b1")
+		)
+		(pin "2"
+			(uuid "f0963e85-5f88-4c51-bc3d-469e5c22eaca")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:CSD13383F4")
+		(at 63.5 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6979c96b-a689-4ead-ae89-d4578ae32140")
+		(property "Reference" "Q7"
+			(at 74.93 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD13383F4"
+			(at 74.93 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CSD13383F4"
+			(at 74.93 205.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/csd13383f4"
+			(at 74.93 305.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "12V, N ch NexFET MOSFET, single LGA 1.0 x 0.6mm, 44mOhm"
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.35"
+			(at 74.93 505.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 74.93 605.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CSD13383F4"
+			(at 74.93 705.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-CSD13383F4"
+			(at 74.93 805.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD13383F4?qs=beZBGHSk9c3rR5p9cfIBEg%3D%3D"
+			(at 74.93 905.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CSD13383F4"
+			(at 74.93 1005.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/csd13383f4/texas-instruments?region=nac"
+			(at 74.93 1105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "afc48a8c-d65b-4e8a-b534-07e407a64b66")
+		)
+		(pin "1"
+			(uuid "368190a8-a826-4aac-a100-9fb8497ebc0b")
+		)
+		(pin "2"
+			(uuid "766fe736-2bde-43f8-ab70-4f3d3bd2dd1d")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -20688,6 +22147,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 172.72 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e14b1cf-aee8-45a6-9e7c-b5b0de9c360a")
+		(property "Reference" "#PWR066"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cc09903-2aea-4a13-9a59-188257403968")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:CL10A475KP8NNNC")
 		(at 151.13 186.69 180)
 		(unit 1)
@@ -21041,7 +22566,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:APHHS1005SECK")
-		(at 292.1 189.23 0)
+		(at 63.5 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21050,7 +22575,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3c8ea3f-2265-4fc3-bf0d-df69ac85f43d")
 		(property "Reference" "RSL"
-			(at 299.72 179.07 0)
+			(at 55.88 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21058,7 +22583,7 @@
 			)
 		)
 		(property "Value" "APHHS1005SECK"
-			(at 299.72 181.61 0)
+			(at 55.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21066,7 +22591,7 @@
 			)
 		)
 		(property "Footprint" "APHHS1005SECK"
-			(at 304.8 282.88 0)
+			(at 50.8 13.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21076,7 +22601,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005SECK.pdf"
-			(at 304.8 382.88 0)
+			(at 50.8 -86.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21086,7 +22611,7 @@
 			)
 		)
 		(property "Description" "Standard LEDs - SMD ORANGE WTR CLEAR 160mcd 610nm"
-			(at 292.1 189.23 0)
+			(at 63.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21095,7 +22620,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at 304.8 582.88 0)
+			(at 50.8 -286.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21105,7 +22630,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kingbright"
-			(at 304.8 682.88 0)
+			(at 50.8 -386.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21115,7 +22640,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "APHHS1005SECK"
-			(at 304.8 782.88 0)
+			(at 50.8 -486.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21125,7 +22650,7 @@
 			)
 		)
 		(property "Mouser Part Number" "604-APHHS1005SECK"
-			(at 304.8 882.88 0)
+			(at 50.8 -586.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21135,7 +22660,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/APHHS1005SECK?qs=48MD8zkHsZDIjCNVxt6Sow%3D%3D"
-			(at 304.8 982.88 0)
+			(at 50.8 -686.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21145,7 +22670,7 @@
 			)
 		)
 		(property "Arrow Part Number" "APHHS1005SECK"
-			(at 304.8 1082.88 0)
+			(at 50.8 -786.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21155,7 +22680,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/aphhs1005seck/kingbright?region=nac"
-			(at 304.8 1182.88 0)
+			(at 50.8 -886.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21174,6 +22699,73 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "RSL")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 71.12 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3db1c73-1cad-4e08-8844-7b51d9282b6e")
+		(property "Reference" "#PWR097"
+			(at 67.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 74.93 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 71.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fa454b3-dd20-4a3d-a371-605c7c59cc82")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -21643,6 +23235,152 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:2601-1102")
+		(at 147.32 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b31b0da8-f227-46ac-b408-dc051778575b")
+		(property "Reference" "DO12"
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2601-1102"
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "26011102"
+			(at 168.91 182.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.wago.com/2601-1102"
+			(at 168.91 282.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 1.5 mm; Pin spacing 3.5 mm; 2-pole; Push-in CAGE CLAMP; 1,50 mm; gray"
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.75"
+			(at 168.91 482.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 168.91 582.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2601-1102"
+			(at 168.91 682.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 168.91 782.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 168.91 882.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 168.91 982.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 168.91 1082.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f932ab73-5a99-483d-911b-429d2ee107ef")
+		)
+		(pin "4"
+			(uuid "b81c58f3-d11a-44ca-a145-473ebdad6114")
+		)
+		(pin "1"
+			(uuid "340bbe7f-4e4f-47f3-8d38-67e714f1aef6")
+		)
+		(pin "2"
+			(uuid "6c568f5d-b3ac-473b-b158-5dc9420735c6")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "DO12")
 					(unit 1)
 				)
 			)
@@ -22606,6 +24344,146 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:SB220-E3_73")
+		(at 245.11 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c95afef7-f422-4a43-8bd4-c6a8c9e52a1e")
+		(property "Reference" "D19"
+			(at 237.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SB220-E3_73"
+			(at 237.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DIOAD1910W86L670D310"
+			(at 233.68 28.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88717/sb220.pdf"
+			(at 233.68 -71.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky Diodes & Rectifiers 20 Volt 2.0 Amp 60 Amp IFSM"
+			(at 245.11 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 233.68 -271.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 233.68 -371.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SB220-E3/73"
+			(at 233.68 -471.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "625-SB220-E3/73"
+			(at 233.68 -571.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SB220-E3-73?qs=u91jd7aysvPbXL6e9uzQKg%3D%3D"
+			(at 233.68 -671.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 233.68 -771.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 233.68 -871.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88addc04-4f5a-4695-9d8a-57723d59ad41")
+		)
+		(pin "1"
+			(uuid "e657ece1-3c6e-411b-93a4-665ff3316854")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -24913,6 +26791,144 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:DMG9926USD-13")
+		(at 204.47 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec7b40e7-4953-414f-a81e-3f4b6d8fd9cb")
+		(property "Reference" "Q6"
+			(at 217.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMG9926USD-13"
+			(at 217.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-8N"
+			(at 226.06 220.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/ds31757.pdf"
+			(at 226.06 320.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diodes Inc DMG9926USD-13 Dual N-channel MOSFET Transistor, 8 A, 20 V, 8-Pin SOP"
+			(at 204.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 226.06 520.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-DMG9926USD-13"
+			(at 226.06 620.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG9926USD-13?qs=4YT44p7w2buzSaF0raP1iw%3D%3D"
+			(at 226.06 720.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 226.06 820.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DMG9926USD-13"
+			(at 226.06 920.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0d32de4c-0e15-445c-ab35-cbc455c69986")
+		)
+		(pin "5"
+			(uuid "407c2ab2-81d6-4f9c-bb02-bb9d618125a0")
+		)
+		(pin "2"
+			(uuid "d2be5bb2-07e8-43b5-91ab-0483400e2630")
+		)
+		(pin "7"
+			(uuid "9e87cf2b-7de9-42c9-bd08-86e3e53d3f5b")
+		)
+		(pin "4"
+			(uuid "4d644818-cf6c-434c-8cb3-56a8e150111a")
+		)
+		(pin "8"
+			(uuid "3af4551e-af2a-4661-9bb7-2b69a6cfc54a")
+		)
+		(pin "1"
+			(uuid "8aafc871-2097-44a9-9dbd-59dcdb8d5e40")
+		)
+		(pin "6"
+			(uuid "572d5c7d-c357-4af5-bb42-54df1360bf40")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 375.92 69.85 0)
 		(unit 1)
@@ -25178,6 +27194,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12VA")
+		(at 191.77 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3c48cfd-7ee4-4111-ba2f-ab077b7f16ed")
+		(property "Reference" "#PWR046"
+			(at 191.77 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12VA"
+			(at 191.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12VA\""
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b84c66f8-842d-4944-8112-54dd4e95c17c")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:SB220-E3_73")
 		(at 245.11 90.17 180)
 		(unit 1)
@@ -25312,6 +27393,72 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8b0e47d-e663-48b1-902c-7d40d8a1003b")
+		(property "Reference" "#PWR099"
+			(at 33.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bd3431f-ad7e-4a93-ab18-00d37449a880")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -25595,6 +27742,72 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fec3e1b7-70be-43d0-8d8e-2a0c06a56085")
+		(property "Reference" "#PWR053"
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b91d124a-b969-46e7-b61a-7324fcb3e324")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
