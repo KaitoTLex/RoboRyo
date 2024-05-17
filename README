@@ -1,0 +1,20 @@
+This is the Robo Ryo Repository
+
+The RoboRyo is a more redundant clone of National Intstrument's RoboRio. It provides long range controls and less BS compared to the FRC legal  
+RoboRio. The upside of RoboRyo is that there are more configurable ports compared to the real RoboRyo and it also includes quality of Life features   
+that the real RoboRio dosen't have. 
+
+
+
+This document gives you an overview of the RoboRyo repository and how it works 
+
+
+
+
+
+Contributers
+
+The RoboRyo PCB is designed by KaitoTLex(Ren Lin) && Reed Wong 
+The RoboRyo Code is developed by Arvind Venketesh && Nichloas Luo
+
+This project is licened under the MIT License
