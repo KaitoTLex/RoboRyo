@@ -11,6 +11,213 @@
 		(comment 1 "The replacement for the NI Robo Rio for Team1280's off season project")
 	)
 	(lib_symbols
+		(symbol "Connectors:JTAG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JTAG"
+				(at 10.922 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 6.35 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 6.35 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 6.35 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 6.35 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JTAG_0_1"
+				(rectangle
+					(start -7.62 -1.27)
+					(end 7.62 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "JTAG_1_1"
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -6.35 90)
+					(length 2.54)
+					(name "JTAGWKUP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -6.35 90)
+					(length 2.54)
+					(name "JTAG-SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -6.35 90)
+					(length 2.54)
+					(name "JTAG-CK-SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -6.35 90)
+					(length 2.54)
+					(name "JTAG-RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -6.35 90)
+					(length 2.54)
+					(name "JTAG-DO_SWO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 -6.35 90)
+					(length 2.54)
+					(name "JTAG-DI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_ST_STM32F4:STM32F446RETx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3788,6 +3995,195 @@
 				)
 			)
 		)
+		(symbol "SamacSys_Parts:CD1408-FF11500"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 11.43 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CD1408-FF11500"
+				(at 11.43 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "DIOC3419X135N"
+				(at 11.43 -97.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/CD1408-FF11500.pdf"
+				(at 11.43 -197.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rectifiers CHIP DIODE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.35"
+				(at 11.43 -397.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "652-CD1408-FF11500"
+				(at 11.43 -497.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CD1408-FF11500?qs=6S5Watp5UnJp8BmlHqR9XQ%3D%3D"
+				(at 11.43 -597.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Bourns"
+				(at 11.43 -697.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CD1408-FF11500"
+				(at 11.43 -797.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CD1408-FF11500_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:CL03A104KQ3NNNC"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -5869,6 +6265,195 @@
 				)
 			)
 		)
+		(symbol "SamacSys_Parts:NRVHP260SFT3G"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 11.43 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "NRVHP260SFT3G"
+				(at 11.43 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SODFL3616X98N"
+				(at 11.43 -97.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nhp260sf-d.pdf"
+				(at 11.43 -197.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rectifiers Planar Ultrafast Rectifier, 600V, 2A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.98"
+				(at 11.43 -397.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 11.43 -497.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 11.43 -597.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at 11.43 -697.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "NRVHP260SFT3G"
+				(at 11.43 -797.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "NRVHP260SFT3G_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:RC1005F103CS"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -7855,6 +8440,12 @@
 		(uuid "3f891a65-7e67-46f8-9cbf-a5848eaf4abf")
 	)
 	(junction
+		(at 81.28 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41f563da-eb28-4e5c-9f56-930c3e89206d")
+	)
+	(junction
 		(at 229.87 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7865,6 +8456,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e90c10c-7051-4da1-a6e7-f12a8329844a")
+	)
+	(junction
+		(at 78.74 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53aedb76-8811-4d6d-81e6-b3d3722c8b6b")
 	)
 	(junction
 		(at 363.22 27.94)
@@ -7951,6 +8548,12 @@
 		(uuid "a984a518-5a27-4d49-bbe4-991b826246a0")
 	)
 	(junction
+		(at 88.9 123.4267)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb081873-ae38-4c50-8dbe-5311ac179a68")
+	)
+	(junction
 		(at 363.22 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7967,6 +8570,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce236c2a-e810-4b07-b46a-defbdcea56e5")
+	)
+	(junction
+		(at 86.36 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d37653a4-87bd-4439-b028-7a8aa930f92b")
 	)
 	(junction
 		(at 332.74 167.64)
@@ -7991,6 +8600,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f078d3eb-4771-4eab-9a69-9b7162875764")
+	)
+	(junction
+		(at 83.82 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0b695cc-1fc2-4bd0-b4c7-13390220f931")
 	)
 	(no_connect
 		(at 195.58 227.33)
@@ -8069,16 +8684,6 @@
 			(type default)
 		)
 		(uuid "00a71598-f887-40cb-b8b8-06c60df3bb8e")
-	)
-	(wire
-		(pts
-			(xy 142.24 71.12) (xy 147.32 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01aef21f-6143-43d5-a7bb-330d8f5431f2")
 	)
 	(wire
 		(pts
@@ -8339,6 +8944,16 @@
 			(type default)
 		)
 		(uuid "1ee6ea38-efe0-4f96-b2db-ffd339e61b6d")
+	)
+	(wire
+		(pts
+			(xy 15.24 59.69) (xy 15.24 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202da865-023a-40eb-9430-13abb46cd08e")
 	)
 	(wire
 		(pts
@@ -8682,6 +9297,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 59.69) (xy 25.4 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d9b534-55fe-4200-a799-5c9203d83d7f")
+	)
+	(wire
+		(pts
 			(xy 363.22 50.8) (xy 363.22 55.88)
 		)
 		(stroke
@@ -8752,6 +9377,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 73.66) (xy 147.32 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66318676-10cd-4f06-b586-3430d77e1cae")
+	)
+	(wire
+		(pts
 			(xy 314.96 83.82) (xy 302.26 83.82)
 		)
 		(stroke
@@ -8759,6 +9394,16 @@
 			(type default)
 		)
 		(uuid "6a8af841-e438-42c7-b12c-333528e7531b")
+	)
+	(wire
+		(pts
+			(xy 15.24 74.93) (xy 16.51 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6a2e16-bf9f-49aa-9740-7e62d9b45c99")
 	)
 	(wire
 		(pts
@@ -8802,6 +9447,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 123.4267) (xy 88.9 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7241b81d-6697-41eb-b53d-cb4949c00773")
+	)
+	(wire
+		(pts
 			(xy 97.79 22.86) (xy 102.87 22.86)
 		)
 		(stroke
@@ -8812,7 +9467,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 185.42) (xy 88.9 123.19)
+			(xy 88.9 185.42) (xy 88.9 123.4267)
 		)
 		(stroke
 			(width 0)
@@ -9758,6 +10413,17 @@
 		)
 		(uuid "0aff4fb7-490a-49e4-920d-e632d064348e")
 	)
+	(label "JTAG-RST"
+		(at 140.97 218.44 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0cfab1c0-0462-4f30-9655-46e82861a41f")
+	)
 	(label "DO8"
 		(at 172.72 22.86 0)
 		(fields_autoplaced yes)
@@ -10253,6 +10919,17 @@
 		)
 		(uuid "69957010-da73-410e-a148-18026bdcd51a")
 	)
+	(label "RSL_EX"
+		(at 140.97 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69fc365a-4dfe-40ee-9f52-254dcd3502d3")
+	)
 	(label "DO5"
 		(at 245.11 63.5 0)
 		(fields_autoplaced yes)
@@ -10263,17 +10940,6 @@
 			(justify left bottom)
 		)
 		(uuid "6c4a5e03-d361-4211-b555-34f77504ee7c")
-	)
-	(label "RSL_EX"
-		(at 142.24 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6cea5cc8-c54c-4cd7-bdd2-09c07c278da4")
 	)
 	(label "RSL_EX"
 		(at 179.07 129.54 0)
@@ -10319,16 +10985,27 @@
 		)
 		(uuid "7626f043-f0a9-4b71-b74c-965c07918bf7")
 	)
-	(label "RSL_EX"
-		(at 172.72 71.12 0)
+	(label "JTAG-WKUP"
+		(at 133.35 218.44 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "77c5dc14-f2a3-4339-9b38-ecd65cb47175")
+		(uuid "7762acac-c287-45e6-bfe5-c9944d70331a")
+	)
+	(label "JTAG-DO_SWO"
+		(at 143.51 218.44 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7aba3b3c-32ed-4c88-953e-993fd9dacab2")
 	)
 	(label "A-IN2"
 		(at 45.72 213.36 0)
@@ -10450,6 +11127,17 @@
 			(justify left bottom)
 		)
 		(uuid "954731f2-ac1d-49b7-aed1-c198017f61c0")
+	)
+	(label "RSL_EX"
+		(at 172.72 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "998855c7-497b-4e54-92d4-2042d37a207a")
 	)
 	(label "Radio_UART_TX"
 		(at 194.31 219.71 180)
@@ -10715,6 +11403,17 @@
 		)
 		(uuid "cb3f2725-c4ce-42e7-b845-3937ff57c8d5")
 	)
+	(label "JTAG-DI"
+		(at 146.05 218.44 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb43a4cf-baa1-4ad6-a48c-10ffd0526ae3")
+	)
 	(label "DO5"
 		(at 97.79 86.36 0)
 		(fields_autoplaced yes)
@@ -10814,6 +11513,17 @@
 		)
 		(uuid "dc05f51f-5a12-4ae2-8a07-52b12bc976d5")
 	)
+	(label "JTAG-SWDIO"
+		(at 135.89 218.44 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df467fda-baaf-4f59-8d7d-916f419983b6")
+	)
 	(label "GPIO-OUT8"
 		(at 185.42 64.77 0)
 		(fields_autoplaced yes)
@@ -10879,6 +11589,17 @@
 			(justify left bottom)
 		)
 		(uuid "e889ede3-926d-4429-a019-1318d91dfeb4")
+	)
+	(label "JTAG-CK-SWCLK"
+		(at 138.43 218.44 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea907c5f-a0a4-4fd5-98cd-0bece9908c9f")
 	)
 	(label "mPWM7"
 		(at 99.06 256.54 0)
@@ -10985,6 +11706,72 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 147.32 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0120b06c-4843-4572-9a36-09e5ccb176a1")
+		(property "Reference" "#PWR054"
+			(at 147.32 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 147.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 147.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5973ccb9-1a07-4a8a-b2c5-f325e6f61065")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -11397,6 +12184,72 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03442fa3-176f-491b-a2f6-4c4279d49724")
+		(property "Reference" "#PWR027"
+			(at 191.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43c5cdd3-e66a-4bae-b8b2-2619a231ea07")
+		)
+		(instances
+			(project ""
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12263,17 +13116,53 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12VA")
-		(at 191.77 41.91 0)
+		(lib_id "SamacSys_Parts:CD1408-FF11500")
+		(at 17.78 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "091a768d-7a8b-4c42-b392-aee25bc87f6a")
-		(property "Reference" "#PWR057"
-			(at 191.77 45.72 0)
+		(uuid "0a70eb5e-7733-4906-b16d-fc2ce1c9fc1b")
+		(property "Reference" "D5"
+			(at 25.4 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CD1408-FF11500"
+			(at 25.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DIOC3419X135N"
+			(at 29.21 172.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/CD1408-FF11500.pdf"
+			(at 29.21 272.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rectifiers CHIP DIODE"
+			(at 17.78 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12281,48 +13170,66 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12VA"
-			(at 191.77 36.83 0)
+		(property "Height" "1.35"
+			(at 29.21 472.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 191.77 41.91 0)
+		(property "Mouser Part Number" "652-CD1408-FF11500"
+			(at 29.21 572.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12VA\""
-			(at 191.77 41.91 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CD1408-FF11500?qs=6S5Watp5UnJp8BmlHqR9XQ%3D%3D"
+			(at 29.21 672.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 29.21 772.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CD1408-FF11500"
+			(at 29.21 872.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7cbbaef-4e74-4ef8-aaad-6caee1887887")
 		)
 		(pin "1"
-			(uuid "293f966e-5805-4972-b131-d4ae24918654")
+			(uuid "d3988a75-7545-4ca4-9990-bf34b9982264")
 		)
 		(instances
-			(project "RoboRyo"
+			(project ""
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
-					(reference "#PWR057")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -12497,6 +13404,72 @@
 			(project ""
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bfa2f60-8a86-40e4-a397-d13d419e8200")
+		(property "Reference" "#PWR058"
+			(at 191.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc6d5f1c-bace-47fa-ad1f-248272ec81de")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -12785,72 +13758,6 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "DO9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 33.02 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "168ed32b-c073-40b7-81fe-04cd66a16853")
-		(property "Reference" "#PWR010"
-			(at 33.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 33.02 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 33.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1949b9f0-99db-4d2f-81fd-27ac4aa96f45")
-		)
-		(instances
-			(project "RoboRyo"
-				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -14505,6 +15412,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 83.82 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d0d2cd1-1fa1-41e7-8dba-07d4ae6c993c")
+		(property "Reference" "#PWR0100"
+			(at 83.82 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 83.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf5ea764-0e30-4d75-b410-a481429fbd9e")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 102.87 40.64 0)
 		(unit 1)
@@ -14852,6 +15825,72 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "PowerIN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 191.77 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31c3ba73-6a25-4d36-9107-61e61cf83c8d")
+		(property "Reference" "#PWR028"
+			(at 191.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 191.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 191.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0e55e44-83fc-4e8b-842e-5ab22537b721")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -15536,138 +16575,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 147.32 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ef25795-28cd-421f-8cee-6aaca7ce318f")
-		(property "Reference" "#PWR054"
-			(at 147.32 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35fb4f09-d9a9-4020-9667-2e85bee1798f")
-		)
-		(instances
-			(project "RoboRyo"
-				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12VA")
-		(at 191.77 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41d24387-224a-461b-97e1-d4afc9ef98b4")
-		(property "Reference" "#PWR059"
-			(at 191.77 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12VA"
-			(at 191.77 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12VA\""
-			(at 191.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08619af6-2975-48dc-8b0d-89837433203c")
-		)
-		(instances
-			(project "RoboRyo"
-				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SamacSys_Parts:SB240")
 		(at 247.65 63.5 180)
 		(unit 1)
@@ -15869,6 +16776,138 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48b5c88a-4e1f-4020-af2e-0bf11a68125d")
+		(property "Reference" "#PWR062"
+			(at 191.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cede4473-6b03-42b4-a82f-722932bef327")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b4cdf6d-6732-4406-ac58-e6d94e4f492e")
+		(property "Reference" "#PWR061"
+			(at 191.77 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f2e8910-a622-4558-8f41-2c58a54cedc6")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -16775,72 +17814,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12VA")
-		(at 191.77 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57d85f6a-b83b-40a9-a9e5-ee0bc347b56d")
-		(property "Reference" "#PWR061"
-			(at 191.77 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12VA"
-			(at 191.77 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12VA\""
-			(at 191.77 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a1e1ad4-b53c-4806-8e0e-f9128ad08358")
-		)
-		(instances
-			(project "RoboRyo"
-				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 332.74 224.79 0)
 		(unit 1)
@@ -16967,72 +17940,6 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12VA")
-		(at 191.77 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59093bf5-df5c-4def-97c9-59ece7d6be52")
-		(property "Reference" "#PWR060"
-			(at 191.77 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12VA"
-			(at 191.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12VA\""
-			(at 191.77 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "780c0c7c-6b84-4605-8b8b-cc553c24f49b")
-		)
-		(instances
-			(project "RoboRyo"
-				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
-					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -17175,6 +18082,72 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 17.78 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59681e9e-73b4-40b6-b84d-22ad88eb5adb")
+		(property "Reference" "#PWR010"
+			(at 17.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 17.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 17.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fe5cdd0-8a5f-481e-97b2-171a3db2529b")
+		)
+		(instances
+			(project ""
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -18327,6 +19300,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 191.77 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6854e559-047b-48db-af82-8e10e41e5f6b")
+		(property "Reference" "#PWR057"
+			(at 191.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecac1e78-0fdd-45b1-a48e-0d4f1115e3be")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:CSD13383F4")
 		(at 171.45 139.7 0)
 		(unit 1)
@@ -19150,6 +20189,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 15.24 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71dd5afa-9600-46a6-ab34-3883ec30ce2b")
+		(property "Reference" "#PWR08"
+			(at 15.24 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 15.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 15.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 15.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 15.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a48c7cba-1eb2-442b-9d9e-9bea556b7d94")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 347.98 196.85 0)
 		(unit 1)
@@ -19636,6 +20741,72 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "DO3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "745ab656-4893-4615-a96b-3dce39f135d0")
+		(property "Reference" "#PWR059"
+			(at 191.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92ab68c8-9261-435c-b970-bb9d9e5a23c6")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -20169,6 +21340,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 166.2338 74.2244 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f3a3924-cfae-41d0-816a-e8b235f9d963")
+		(property "Reference" "#PWR053"
+			(at 166.2338 80.5744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.2338 79.3044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.2338 74.2244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.2338 74.2244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.2338 74.2244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b0e6b5f-a9b5-4abf-820a-8f80fd5d67ae")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "824a5626-421a-4191-8d88-9827b4e1a283")
+		(property "Reference" "#PWR024"
+			(at 129.54 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f16d01fe-9216-4ab0-bf1c-81c86936b940")
+		)
+		(instances
+			(project ""
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:DMG9926USD-13")
 		(at 204.47 104.14 0)
 		(unit 1)
@@ -20500,71 +21803,6 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12VA")
-		(at 191.77 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8912c26f-89fa-4fbb-a359-f8f8da9d48ad")
-		(property "Reference" "#PWR064"
-			(at 191.77 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12VA"
-			(at 191.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12VA\""
-			(at 191.77 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49bac549-fbe7-4c9c-80b8-eb0696658803")
-		)
-		(instances
-			(project "RoboRyo"
-				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
-					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -21418,6 +22656,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Connectors:JTAG")
+		(at 139.7 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9930cd4b-f9ba-4b6b-bcd2-eb21235f8c18")
+		(property "Reference" "JTAG1"
+			(at 139.7 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "09d41a29-fd0e-48d3-af9a-2fe080265a37")
+		)
+		(pin ""
+			(uuid "d228b751-e24a-4179-823c-bcffd05ce97b")
+		)
+		(pin "1"
+			(uuid "1daa508f-7d53-4425-9b45-91612ae330cd")
+		)
+		(pin ""
+			(uuid "7d486f2a-dc32-4800-ba03-10def7af1027")
+		)
+		(pin "2"
+			(uuid "fa8cbadc-7881-4a78-b70b-da8f931fd06e")
+		)
+		(pin "0"
+			(uuid "a76c0831-0604-4965-974d-cda7d64f2f68")
+		)
+		(pin "3"
+			(uuid "b0c57ce3-4683-4c44-ad6b-dfac02348925")
+		)
+		(pin "4"
+			(uuid "6944161b-10d6-4544-a525-525b0bccc6bb")
+		)
+		(instances
+			(project ""
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "JTAG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 327.66 124.46 0)
 		(unit 1)
@@ -21767,6 +23091,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 191.77 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c05986f-a58f-484e-9617-ba7dd835b46f")
+		(property "Reference" "#PWR063"
+			(at 191.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6031201c-162a-4191-9919-07281711c0df")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:DMG9926USD-13")
 		(at 204.47 41.91 0)
 		(unit 1)
@@ -21899,72 +23289,6 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12VA")
-		(at 191.77 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c1cf9a9-c654-423d-9e76-64e799f893de")
-		(property "Reference" "#PWR058"
-			(at 191.77 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12VA"
-			(at 191.77 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12VA\""
-			(at 191.77 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec15f6d6-1d3a-40d5-8328-5854f5caf459")
-		)
-		(instances
-			(project "RoboRyo"
-				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -22454,17 +23778,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 179.07 144.78 270)
+		(lib_id "power:+3V3")
+		(at 81.28 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a3db1c73-1cad-4e08-8844-7b51d9282b6e")
-		(property "Reference" "#PWR097"
-			(at 175.26 144.78 0)
+		(uuid "a86760e1-949d-4edc-ab00-dc6dcfb9e3ec")
+		(property "Reference" "#PWR095"
+			(at 81.28 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22472,17 +23796,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 182.88 144.7799 90)
+		(property "Value" "+3V3"
+			(at 81.28 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 144.78 0)
+			(at 81.28 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22491,7 +23814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 144.78 0)
+			(at 81.28 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22499,8 +23822,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 179.07 144.78 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 81.28 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22509,12 +23832,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0fa454b3-dd20-4a3d-a371-605c7c59cc82")
+			(uuid "ed2af115-59ef-4b74-9312-62c90b8d08d9")
 		)
 		(instances
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
-					(reference "#PWR097")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -22653,6 +23976,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 172.72 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac9f6ba5-90fd-446f-88be-edd0e31b50da")
+		(property "Reference" "#PWR097"
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 172.72 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 172.72 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de2aa0c9-76a3-4f07-b85a-72568bf948e1")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 375.92 124.46 0)
 		(unit 1)
@@ -22719,16 +24108,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12VA")
-		(at 191.77 104.14 0)
+		(lib_id "power:GND")
+		(at 179.07 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ae6e9123-a001-40b1-9bee-6453df83b625")
-		(property "Reference" "#PWR063"
-			(at 191.77 107.95 0)
+		(fields_autoplaced yes)
+		(uuid "ad2cd88d-5eb8-435e-8403-df36daa06927")
+		(property "Reference" "#PWR0117"
+			(at 179.07 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22736,8 +24126,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12VA"
-			(at 191.77 99.06 0)
+		(property "Value" "GND"
+			(at 179.07 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22745,7 +24135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 104.14 0)
+			(at 179.07 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22754,7 +24144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 104.14 0)
+			(at 179.07 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22762,8 +24152,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12VA\""
-			(at 191.77 104.14 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22772,12 +24162,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a608a92-6ddf-4852-a0b9-e3937f986060")
+			(uuid "b6419fdb-7727-4542-b8c5-dcfe2c49cd11")
 		)
 		(instances
-			(project "RoboRyo"
+			(project ""
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
-					(reference "#PWR063")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -22844,72 +24234,6 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12VA")
-		(at 191.77 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0b855ee-5918-47b1-b004-ebb1cb38bd60")
-		(property "Reference" "#PWR028"
-			(at 191.77 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12VA"
-			(at 191.77 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12VA\""
-			(at 191.77 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "261cb4bc-a48a-4fdc-ae15-b3bc4a30a4ec")
-		)
-		(instances
-			(project "RoboRyo"
-				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -23879,6 +25203,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 191.77 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baf48bc7-8f3d-4caf-bd94-3563931fdcf6")
+		(property "Reference" "#PWR0116"
+			(at 191.77 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9979dba4-3ca6-46cd-a274-b538bbfd512c")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 327.66 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23938,6 +25328,72 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 78.74 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bef4b908-fc65-4efb-9c45-f914a7dada61")
+		(property "Reference" "#PWR096"
+			(at 78.74 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 78.74 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 78.74 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e43c6e87-6863-49a3-9b16-5e46023dbbab")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -24437,6 +25893,128 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:NRVHP260SFT3G")
+		(at 16.51 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c432a01c-6039-4f6a-9ff4-50c8caed03e5")
+		(property "Reference" "D4"
+			(at 20.32 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NRVHP260SFT3G"
+			(at 20.32 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SODFL3616X98N"
+			(at 113.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nhp260sf-d.pdf"
+			(at 213.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rectifiers Planar Ultrafast Rectifier, 600V, 2A"
+			(at 16.51 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.98"
+			(at 413.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 513.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 613.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 713.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NRVHP260SFT3G"
+			(at 813.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c87387d1-6ef3-413e-812a-cf6efd66ed11")
+		)
+		(pin "2"
+			(uuid "1d9c80e2-25e0-4231-8d62-470f8a01899a")
+		)
+		(instances
+			(project ""
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:2601-1102")
 		(at 33.02 40.64 0)
 		(unit 1)
@@ -24577,6 +26155,72 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "CAN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 88.9 123.4267 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5a3c905-8691-4ae9-87a9-95d11f20abd2")
+		(property "Reference" "#PWR0115"
+			(at 88.9 127.2367 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 88.9 118.3467 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 123.4267 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 123.4267 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 88.9 123.4267 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "854b47e5-7db5-4c1f-a1c4-86c7b25d2f63")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -24777,72 +26421,6 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12VA")
-		(at 191.77 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd119e33-6ddd-4f33-b344-d373e6be8e25")
-		(property "Reference" "#PWR062"
-			(at 191.77 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12VA"
-			(at 191.77 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12VA\""
-			(at 191.77 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f424f580-8b50-4826-a244-4bee362576c8")
-		)
-		(instances
-			(project "RoboRyo"
-				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
-					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -25676,6 +27254,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 86.36 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d741b249-8167-4d3d-b87c-b11d610d2d29")
+		(property "Reference" "#PWR0114"
+			(at 86.36 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 86.36 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df451dae-6dca-4847-ae2c-5b7ea4ecb8e6")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:150060GS75000")
 		(at 332.74 224.79 0)
 		(unit 1)
@@ -26311,6 +27955,72 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e27f593c-923e-40a0-84af-2e157572f07a")
+		(property "Reference" "#PWR064"
+			(at 191.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32a6ea61-8c5e-45ae-a293-d9cf713a4260")
+		)
+		(instances
+			(project "RoboRyo"
+				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -27363,17 +29073,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 25.4 59.69 0)
+		(lib_id "power:GND")
+		(at 191.77 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f1c6a6d6-dda5-4999-975d-94a0ccdf7919")
-		(property "Reference" "#PWR08"
-			(at 25.4 63.5 0)
+		(uuid "f1eab23c-b89a-4410-b02d-c23ca14c4122")
+		(property "Reference" "#PWR060"
+			(at 191.77 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27381,8 +29091,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 25.4 54.61 0)
+		(property "Value" "GND"
+			(at 191.77 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27390,7 +29100,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 59.69 0)
+			(at 191.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27399,7 +29109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 59.69 0)
+			(at 191.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27407,8 +29117,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 25.4 59.69 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27417,12 +29127,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7072d840-42d3-4f44-bcf4-e0d84fab15f4")
+			(uuid "ec5f7cb7-9db2-4dc5-9d05-43677fed43ce")
 		)
 		(instances
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
-					(reference "#PWR08")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -27555,72 +29265,6 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12VA")
-		(at 191.77 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbb1e3c1-2cb1-4f76-82e0-982f99d0ab61")
-		(property "Reference" "#PWR027"
-			(at 191.77 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12VA"
-			(at 191.77 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12VA\""
-			(at 191.77 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01756f54-a7b5-4a6c-ba08-ac1da5af01fb")
-		)
-		(instances
-			(project "RoboRyo"
-				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -27838,72 +29482,6 @@
 			(project "RoboRyo"
 				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 172.72 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fec3e1b7-70be-43d0-8d8e-2a0c06a56085")
-		(property "Reference" "#PWR053"
-			(at 172.72 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b91d124a-b969-46e7-b61a-7324fcb3e324")
-		)
-		(instances
-			(project "RoboRyo"
-				(path "/91ba4131-6951-47b5-9991-dc4882a99726"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)

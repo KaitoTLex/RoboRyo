@@ -1,0 +1,137 @@
+Info: Processing symbol 'C1:CAPC1608X90N'.
+Info: Processing symbol 'DO7:26011102'.
+Info: Processing symbol 'C2:CAPC0603X33N'.
+Info: Processing symbol 'J4:26011103'.
+Info: Processing symbol 'C3:CAPC0603X33N'.
+Info: Processing symbol 'J3:26011103'.
+Info: Processing symbol 'C4:CAPC0603X33N'.
+Info: Processing symbol 'J2:26011103'.
+Info: Processing symbol 'C5:CAPC0603X33N'.
+Info: Processing symbol 'J1:26011103'.
+Info: Processing symbol 'C6:CAPC0603X33N'.
+Info: Processing symbol 'IC3:LD29080DT50R'.
+Info: Processing symbol 'C9:CAPC0603X33N'.
+Info: Processing symbol 'IC2:TO228P972X240-3N'.
+Info: Processing symbol 'C13:CAPC0603X33N'.
+Info: Processing symbol 'IC1:XB24CAWIT001'.
+Info: Processing symbol 'C14:CAPC1608X90N'.
+Info: Processing symbol 'DO1:26011102'.
+Info: Processing symbol 'C16:CAPC1608X90N'.
+Info: Processing symbol 'DO12:26011102'.
+Info: Processing symbol 'CAN1:26011102'.
+Info: Processing symbol 'DO2:26011102'.
+Info: Processing symbol 'D1:DIOAD1910W86L670D310'.
+Info: Processing symbol 'DO8:26011102'.
+Info: Processing symbol 'D2:DIOAD1910W86L670D310'.
+Info: Processing symbol 'DO3:26011102'.
+Info: Processing symbol 'D3:DIOAD1910W86L670D310'.
+Info: Processing symbol 'DO11:26011102'.
+Info: Processing symbol 'D6:DIOAD1910W86L670D310'.
+Info: Processing symbol 'DO4:26011102'.
+Info: Processing symbol 'D7:DIOAD1910W86L670D310'.
+Info: Processing symbol 'DO9:26011102'.
+Info: Processing symbol 'D8:DIOAD1910W86L670D310'.
+Info: Processing symbol 'DO5:26011102'.
+Info: Processing symbol 'D9:DIOAD1910W86L670D310'.
+Info: Processing symbol 'DO13:26011102'.
+Info: Processing symbol 'D10:DIOAD1910W86L670D310'.
+Info: Processing symbol 'DO6:26011102'.
+Info: Processing symbol 'D11:DIOAD1910W86L670D310'.
+Info: Processing symbol 'DO10:26011102'.
+Info: Processing symbol 'D12:DIOAD1910W86L670D310'.
+Info: Processing symbol 'J5:26011103'.
+Info: Processing symbol 'J6:26011103'.
+Info: Processing symbol 'J7:26011103'.
+Info: Processing symbol 'J8:26011103'.
+Info: Processing symbol 'LED1-A1:LEDC1608X80N'.
+Info: Processing symbol 'LED1-B1:LEDC1608X80N'.
+Info: Processing symbol 'LED1-G1:LEDC1608X80N'.
+Info: Processing symbol 'LED1-R1:LEDC1608X80N'.
+Info: Processing symbol 'LED1-Y1:LEDC1608X80N'.
+Info: Processing symbol 'PowerIN1:26011502'.
+Info: Processing symbol 'U4:Package_LGA:LGA-28_5.2x3.8mm_P0.5mm'.
+Info: Processing symbol 'Q1:SOIC127P600X175-8N'.
+Info: Processing symbol 'Q2:SOIC127P600X175-8N'.
+Info: Processing symbol 'Q3:SOIC127P600X175-8N'.
+Info: Processing symbol 'Q4:SOIC127P600X175-8N'.
+Info: Processing symbol 'Q5:SOIC127P600X175-8N'.
+Info: Processing symbol 'Q7:CSD13383F4'.
+Info: Processing symbol 'R1:ERJ3EKF1000V'.
+Info: Processing symbol 'R2:ERJ3EKF1000V'.
+Info: Processing symbol 'R3:ERJ3EKF1000V'.
+Info: Processing symbol 'R4:ERJ3EKF1000V'.
+Info: Processing symbol 'R5:RESC1005X40N'.
+Info: Processing symbol 'R6:ERJ2RKD1004X'.
+Info: Processing symbol 'R7:ERJ2RKD1004X'.
+Info: Processing symbol 'RSL1:APHHS1005SECK'.
+Info: Processing symbol 'S1:KSS'.
+Info: Processing symbol 'U1:Package_QFP:LQFP-64_10x10mm_P0.5mm'.
+Change IC1 footprint from 'SamacSys_Parts:XB24CAWIT001' to 'XB24CAWIT001'.
+Add IC2 (footprint 'TO228P972X240-3N').
+Add IC3 (footprint 'LD29080DT50R').
+Change C1 footprint from 'SamacSys_Parts:CAPC1608X90N' to 'CAPC1608X90N'.
+Change C14 footprint from 'SamacSys_Parts:CAPC1608X90N' to 'CAPC1608X90N'.
+Change C16 footprint from 'SamacSys_Parts:CAPC1608X90N' to 'CAPC1608X90N'.
+Change CAN1 footprint from 'SamacSys_Parts:26011102' to '26011102'.
+Change D1 footprint from 'SamacSys_Parts:DIOAD1910W86L670D310' to 'DIOAD1910W86L670D310'.
+Change D2 footprint from 'SamacSys_Parts:DIOAD1910W86L670D310' to 'DIOAD1910W86L670D310'.
+Change D3 footprint from 'SamacSys_Parts:DIOAD1910W86L670D310' to 'DIOAD1910W86L670D310'.
+Change D6 footprint from 'SamacSys_Parts:DIOAD1910W86L670D310' to 'DIOAD1910W86L670D310'.
+Change D7 footprint from 'SamacSys_Parts:DIOAD1910W86L670D310' to 'DIOAD1910W86L670D310'.
+Change D8 footprint from 'SamacSys_Parts:DIOAD1910W86L670D310' to 'DIOAD1910W86L670D310'.
+Change D9 footprint from 'SamacSys_Parts:DIOAD1910W86L670D310' to 'DIOAD1910W86L670D310'.
+Change D10 footprint from 'SamacSys_Parts:DIOAD1910W86L670D310' to 'DIOAD1910W86L670D310'.
+Add Q1 (footprint 'SOIC127P600X175-8N').
+Change D11 footprint from 'SamacSys_Parts:DIOAD1910W86L670D310' to 'DIOAD1910W86L670D310'.
+Add Q2 (footprint 'SOIC127P600X175-8N').
+Change D12 footprint from 'SamacSys_Parts:DIOAD1910W86L670D310' to 'DIOAD1910W86L670D310'.
+Add Q3 (footprint 'SOIC127P600X175-8N').
+Change DO1 footprint from 'SamacSys_Parts:26011102' to '26011102'.
+Add Q4 (footprint 'SOIC127P600X175-8N').
+Change DO2 footprint from 'SamacSys_Parts:26011102' to '26011102'.
+Add Q5 (footprint 'SOIC127P600X175-8N').
+Change DO3 footprint from 'SamacSys_Parts:26011102' to '26011102'.
+Add Q7 (footprint 'CSD13383F4').
+Change DO4 footprint from 'SamacSys_Parts:26011102' to '26011102'.
+Change DO5 footprint from 'SamacSys_Parts:26011102' to '26011102'.
+Change DO6 footprint from 'SamacSys_Parts:26011102' to '26011102'.
+Change DO7 footprint from 'SamacSys_Parts:26011102' to '26011102'.
+Change DO8 footprint from 'SamacSys_Parts:26011102' to '26011102'.
+Change R5 footprint from 'SamacSys_Parts:RESC1005X40N' to 'RESC1005X40N'.
+Change DO9 footprint from 'SamacSys_Parts:26011102' to '26011102'.
+Change R6 footprint from 'SamacSys_Parts:ERJ2RKD1004X' to 'ERJ2RKD1004X'.
+Change DO10 footprint from 'SamacSys_Parts:26011102' to '26011102'.
+Change R7 footprint from 'SamacSys_Parts:ERJ2RKD1004X' to 'ERJ2RKD1004X'.
+Change DO11 footprint from 'SamacSys_Parts:26011102' to '26011102'.
+Add RSL1 (footprint 'APHHS1005SECK').
+Change DO12 footprint from 'SamacSys_Parts:26011102' to '26011102'.
+Add S1 (footprint 'KSS').
+Change DO13 footprint from 'SamacSys_Parts:26011102' to '26011102'.
+Error: Cannot add J8 (footprint '26011103' not found).
+Error: Cannot add J1 (footprint '26011103' not found).
+Error: Cannot add LED1-A1 (footprint 'LEDC1608X80N' not found).
+Error: Cannot add C4 (footprint 'CAPC0603X33N' not found).
+Error: Cannot add LED1-B1 (footprint 'LEDC1608X80N' not found).
+Error: Cannot add J2 (footprint '26011103' not found).
+Error: Cannot add R1 (footprint 'ERJ3EKF1000V' not found).
+Error: Cannot add LED1-G1 (footprint 'LEDC1608X80N' not found).
+Error: Cannot add PowerIN1 (footprint '26011502' not found).
+Error: Cannot add C3 (footprint 'CAPC0603X33N' not found).
+Error: Cannot add R3 (footprint 'ERJ3EKF1000V' not found).
+Error: Cannot add LED1-R1 (footprint 'LEDC1608X80N' not found).
+Error: Cannot add R4 (footprint 'ERJ3EKF1000V' not found).
+Error: Cannot add J3 (footprint '26011103' not found).
+Error: Cannot add LED1-Y1 (footprint 'LEDC1608X80N' not found).
+Error: Cannot add C2 (footprint 'CAPC0603X33N' not found).
+Error: Cannot add J4 (footprint '26011103' not found).
+Error: Cannot add C13 (footprint 'CAPC0603X33N' not found).
+Error: Cannot add J5 (footprint '26011103' not found).
+Error: Cannot add C6 (footprint 'CAPC0603X33N' not found).
+Error: Cannot add J6 (footprint '26011103' not found).
+Error: Cannot add C9 (footprint 'CAPC0603X33N' not found).
+Error: Cannot add J7 (footprint '26011103' not found).
+Error: Cannot add C5 (footprint 'CAPC0603X33N' not found).
+Error: Cannot add R2 (footprint 'ERJ3EKF1000V' not found).
+
+
+Info: Total warnings: 0, errors: 25.
